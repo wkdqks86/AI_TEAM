@@ -1,0 +1,26 @@
+# Python이 실행 중 자동으로 만드는 캐시 파일
+__pycache__/
+*.py[cod]
+
+# 이 프로젝트 전용 가상환경
+.venv/
+venv/
+
+# Jupyter가 자동으로 만드는 임시 체크포인트
+.ipynb_checkpoints/
+
+# API 키와 같은 비밀값을 둘 수 있는 로컬 환경 파일
+.env
+.env.*
+!.env.example
+
+# 전체 녹취와 로컬 경로가 포함될 수 있는 생성 산출물
+bootcamp_archvist/output/
+bootcamp_archvist/tools/approval_output/
+bootcamp_archvist/tools/notion_preview_output/
+bootcamp_archvist/tools/claude_output_*_approval.md
+bootcamp_archvist/tools/claude_output_*_notion_preview*.md
+
+# 운영체제가 자동으로 만드는 파일
+.DS_Store
+Thumbs.db
